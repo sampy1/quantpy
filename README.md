@@ -12,4 +12,12 @@ Use the following command to  load the enviorment from a file
 
 ```
 conda env create -f quantpy.yml
-```python
+```
+
+This is a test:
+```python:
+a, b = 0, 1
+while b < 10:
+    print(b)
+    a, b = a, a + b
+```
