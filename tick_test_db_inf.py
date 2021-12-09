@@ -32,7 +32,9 @@ def create_connection(db_file):
     return conn
 
 def main(db_file):
+    # ==============================================================================
     # Building the Database Tables.
+    # ==============================================================================
     connection = create_connection(db_file) # :memory:
     cursor = connection.cursor()
 
