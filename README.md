@@ -10,6 +10,6 @@ enviorment file is called quantpy.yml
 Use the following command to  load the enviorment from a file
 (assuming you have conda installed)
 
-'''
-conda env create -f quantpy.yml
 '''python
+conda env create -f quantpy.yml
+'''
