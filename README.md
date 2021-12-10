@@ -1,5 +1,6 @@
 # quantpy
-A platform to do quantitative unit trading analysis.
+A platform to do quantitative unit trading analysis. The idea is to combine a stock
+screener using unittests with a real time trading platform based on patterns.
 
 # Installation
 
