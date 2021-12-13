@@ -14,3 +14,8 @@ Use the following command to  load the enviorment from a file
 ```
 conda env create -f quantpy.yml
 ```
+
+# Research Folder
+This folder contains .ipynb files that jupyter lab executes on. Here is a link 
+that describes how to use jupyter lab.
+[Jupyter Lab](https://jupyter.org/)
