@@ -1,8 +1,8 @@
 """ tick_test_db.py
 
-    Start of a database that will interface with stock ticker tests.
-    In theory this db will be generated and interfaced to store collected database
-    from different sources in a clean method.
+    Start of a database that will interface with stock ticker tests in the quantpy 
+    applicaiton library. In theory this db will be generated and interfaced to store
+    collected database from different sources in a clean method.
 
 """
 
