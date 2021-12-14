@@ -42,6 +42,7 @@ def main(db_file):
         company_table(
             company_id INTERGER PRIMARY KEY,
             ticker TEXT,
+            exchange TEXT,
             company_name TEXT,
             company_address TEXT,
             company_description TEXT
