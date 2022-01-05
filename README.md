@@ -18,7 +18,13 @@ conda env create -f quantpy.yml
 # Application Structure
 
 + com
+  + This folder is a common locations for python modules that can be called but other scripts.
+  It acts as a library to both the jupyter files and test scripts when a patter is found to be
+  repeably used.
 + db
+  + This folder will contain code relating to the collection of data that the test will run 
+  on. It is import to keep the collection of information seperate from the processing of
+  the data in terms of how the code is structured.
 + img
   + Folder Containing images that .md or documenation files will work under.
 + research
