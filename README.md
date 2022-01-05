@@ -21,23 +21,31 @@ conda env create -f quantpy.yml
   + This folder is a common locations for python modules that can be called but other scripts.
   It acts as a library to both the jupyter files and test scripts when a patter is found to be
   repeably used.
+
 + db
   + This folder will contain code relating to the collection of data that the test will run 
   on. It is import to keep the collection of information seperate from the processing of
   the data in terms of how the code is structured.
+
 + img
   + Folder Containing images that .md or documenation files will work under.
+
 + research
   + This is a jupyter lab folder is is best run in this enviroment.
+
 + run
+  + The run directory contains test runners that will call on different tests checking
+    various position senarios.  
+
 + test
   + Folder containing unit test to be called but test runners found in the run folder. 
   Although it is possible to run these test using unittest interface directly typically 
   there is a script in the run folder that is created to run these test suites. This way 
   groups of test can be organized for documentation and study purposes.
+  
 + <img src="https://render.githubusercontent.com/render/math?math=\TeX">
 
-  + folder containing <img src="https://render.githubusercontent.com/render/math?math=\LaTeX"> 
+  + folder containing <img src="https://render.githubusercontent.com/render/math?math=\large\LaTeX"> 
     files that can be used to gernerate documentation. However most documentation will be 
     found in the from of .md files.
 
