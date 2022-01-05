@@ -35,7 +35,7 @@ conda env create -f quantpy.yml
   Although it is possible to run these test using unittest interface directly typically 
   there is a script in the run folder that is created to run these test suites. This way 
   groups of test can be organized for documentation and study purposes.
-+ $\TeX$
++ $\TeX$ <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
   + folder containing $\LaTeX$ files that can be used to gernerate documentation. However
   most documentation will be found in the from of .md files.
 
