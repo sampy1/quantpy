@@ -42,10 +42,11 @@ conda env create -f quantpy.yml
   Although it is possible to run these test using unittest interface directly typically 
   there is a script in the run folder that is created to run these test suites. This way 
   groups of test can be organized for documentation and study purposes.
-  
+
+<!-- This is a good example of how to render LaTeX in Github using a .md file.-->  
 + <img src="https://render.githubusercontent.com/render/math?math=\TeX">
 
-  + folder containing <img src="https://render.githubusercontent.com/render/math?math=\large\LaTeX"> 
+  + Folder containing <img src="https://render.githubusercontent.com/render/math?math=\large\LaTeX"> 
     files that can be used to gernerate documentation. However most documentation will be 
     found in the from of .md files.
 
