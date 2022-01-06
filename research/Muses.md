@@ -28,7 +28,7 @@ I want this to be a general place where I collect my investment thoughts. I beli
 Intrinsic value is a measure of what an asset is worth
 
 1. [Dividend Model](Dividend.ipynb#dividend_id)
-1. [Volatility / Risk](Volatilty.ipynb#dividend_id)
+1. [Volatility / Risk](Volatilty.ipynb#volatity_id)
 
 # Terms
 
