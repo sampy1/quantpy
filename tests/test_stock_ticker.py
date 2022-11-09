@@ -36,8 +36,6 @@ def logPoint(context, verbose=verbose):
         logging.info(f"{context['context']} test time: {context['testtime']}")
     if globals()['verbose']: print ('in {} - {}()'.format(context, callingFunction))
 
-
-
 def setUpModule():
     """  called once, before anything else in this module """
 
@@ -77,19 +75,19 @@ class Fundamental_TestFixtures(unittest.TestCase):
         logPoint({'testtime':f'{diff:.3f}s', 'context':os.environ['current_method']})
 
     def test_PE(self):
-        """  TTX_UTJ See Page(1029), 8.3.5.8 TX Uncorrelated Total Jitter """
-        TTX_UTJ_2p5GTs_Max = 100e-12 # seconds PP
+        """  Place explation of what a PE is here. """
+        _PE = 100e-12 # seconds PP
         
         ## do work here, if you want retries you will have to 
         ## think about how to hadle setUps and Teardowns.
 
         result = 100e-12
 
-        self.assertLessEqual(result, TTX_UTJ_2p5GTs_Max)
+        self.assertLessEqual(result, _PE)
         self.logPoint()
     
     def get_beta_value(self):
-        return 100e-12
+        return 101e-12
     
     def test_beta(self):
         """
@@ -106,7 +104,6 @@ class Fundamental_TestFixtures(unittest.TestCase):
         
         self.assertEqual(result, beta, msg="beta fail")
            
-        
         self.logPoint()
 
     def test_parameter(self):

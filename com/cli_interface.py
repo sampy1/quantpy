@@ -62,7 +62,7 @@ class generic_cli(object):
         return('{}{:,.2f}'.format(self.currency_symbol, text))
     
     def percent_format(self, text):
-        return('{:,.0f}{}'.format( text, self.percentage_symbol))
+        return('{:,.4f}{}'.format( text, self.percentage_symbol))
     
     def format_time(self):
         """ """

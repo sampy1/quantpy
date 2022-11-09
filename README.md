@@ -24,18 +24,18 @@ conda env create -f quantpy.yml
 
 + db
   + This folder will contain code relating to the collection of data that the test will run 
-  on. It is import to keep the collection of information seperate from the processing of
+  on. It is import to keep the collection of information separate from the processing of
   the data in terms of how the code is structured.
 
 + img
-  + Folder Containing images that .md or documenation files will work under.
+  + Folder Containing images that .md or documentation files will work under.
 
 + research
-  + This is a jupyter lab folder is is best run in this enviroment.
+  + This is a jupyter lab folder is is best run in this environment.
 
 + run
   + The run directory contains test runners that will call on different tests checking
-    various position senarios.  
+    various position scenarios.  
 
 + test
   + Folder containing unit test to be called but test runners found in the run folder. 
