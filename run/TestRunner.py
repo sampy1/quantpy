@@ -39,7 +39,7 @@ from cli_interface import generic_cli
 from test_stock_ticker import Fundamental_TestFixtures
 
 
-# allows for proper display.
+# allows for fancy display.
 cli = generic_cli()
 
 
@@ -111,11 +111,9 @@ verbose = False
 # https://www.studytonight.com/python/python-logging-configuration
 if not os.path.exists('results'): os.makedirs('results')
 logging.basicConfig(level=logging.NOTSET, 
-                    filename=os.environ['datalog'], # filename set above.
-                    filemode='w', 
-                    datefmt='%d-%b-%y,%H:%M:%S',
-                    format='%(asctime)-15s,%(name)s,%(levelname)s,%(message)s',
-                    )
+    filename=os.environ['datalog'], # filename set above.
+    filemode='w', datefmt='%d-%b-%y,%H:%M:%S',
+    format='%(asctime)-15s,%(name)s,%(levelname)s,%(message)s')
 
 # Default logging information.
 logging.info("Date, Time, Username, Level, Info")
